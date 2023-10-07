@@ -7,7 +7,7 @@ using TV_App.Persistance.Models;
 
 namespace TV_App.Application.ViewModel
 {
-	public class AddSeriesViewModel
+	internal class SeriesViewModel
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }
